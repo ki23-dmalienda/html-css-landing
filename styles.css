@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.wrapper{
+  background: linear-gradient(90deg,rgba(32, 135, 176, 1) 0%, rgba(110, 245, 166, 1) 45%, rgba(237, 221, 83, 1) 100%);;
+  width: 100%;
+}
+
+.header{
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-size: 38px;
+  color: white;
+  font-weight: 700;
+  -webkit-text-stroke: 0.7px black;
+  -webkit-text-stroke-width: 0.7px;
+}
+
+.logo .bold{
+  font-weight: bold;
+  color: black;
+}
+
+.nav{
+  float: right;
+  width: 50%;
+}
+
+.nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav li{
+  display: inline-block;
+}
+
+.nav a{
+  text-decoration: none;
+  color:black;
+  font-weight: 500;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 500ms ease;
+}
+
+.btn:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.home-text{
+  width: 650px; 
+  max-width: 50%;
+}
+
+.home-text h1{
+  font-weight: 400;
+}
+
+.home-text h1 span{
+  font-weight: 900;
+  font-weight: bold;
+}
+
+.home-text p{
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.btn-shop{
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0;
+  transition: all 500ms ease;
+}
+
+.btn-contact{
+  text-decoration: none;
+  color: black;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px;
+  border-color: black;
+  transition: all 500ms ease;
+}
+
+.btn-shop:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.btn-contact:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.image img{
+  width: 675px;
+  height: 460px;
+  top: 213px;
+  left: 686px;
+}
+
+.scroll-down{
+  text-align: center;
+  margin: 40px 0;
+  font-weight: 500;
+}
